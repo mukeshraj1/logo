@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(39, 38, 38);
+}
+div{
+    height: 170px;
+    width: 170px;
+    border: 23px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color:  #00ff009f #ff7b00 gray rgba(79, 79, 238, 0.938);
+    font-family: sans-serif;
+    transform: rotate(-47deg);
+}
+h3{
+   color: white;
+   transform: rotate(47deg);
+}
+p{
+    color: white;
+    transform: rotate(0deg);
+    font-size: 8px;
+    font-weight: normal;
+    text-align: center;
+}
